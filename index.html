@@ -1,179 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dalia - Main Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <!-- This is a placeholder for the logo -->
-        <a href="#home" class="logo">Dalia's Logo</a>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <!-- Landing Page Section -->
-    <section id="home" class="page landing-page">
-      <div class="content">
-        <h1>Welcome Dalia's Portfolio</h1>
-        <p>Discover my projects and get to know me.</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dalia - Main Portfolio</title>
+  <script src="js/script.js" defer></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- This is a placeholder for the logo -->
+      <a href="#home" class="logo">Dalia's Logo</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Landing Page Section -->
+  <section id="home" class="page landing-page">
+    <div class="content">
+      <h1>Welcome to Dalia's Portfolio</h1>
+      <p>Discover my projects and get to know me.</p>
+    </div>
+    <div class="social-media-icons">
+      <!-- Placeholder links for social media icons -->
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="page section--about">
+    <h2>About Me</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex officia
+      numquam vero possimus consequuntur reiciendis, laborum voluptas
+      molestias quaerat dignissimos quia? Dignissimos id possimus rerum unde
+      ab dicta esse quam.
+    </p>
+
+    <!-- Portfolio Cards -->
+    <div class="portfolio-cards">
+      <!-- Web Development Portfolio Card -->
+      <div class="card web-development">
+        <a href="URL_TO_YOUR_WEB_DEVELOPMENT_PORTFOLIO" target="_blank">
+          <img src="" alt="Web Development Portfolio" />
+          <div class="card-content">
+            <h3>Web Development Portfolio</h3>
+            <p>Check out my coding projects and applications.</p>
+          </div>
+        </a>
       </div>
-      <div class="social-media-icons">
-        <!-- Placeholder links for social media icons -->
-        <a href="https://linkedin.com/in/yourprofile" target="_blank"
-          >LinkedIn</a
-        >
-        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-        <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
-      </div>
-    </section>
+    </div>
 
-    <!-- About Me Section -->
-    <section id="about" class="page about-section">
-      <h2>About Me</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex officia
-        numquam vero possimus consequuntur reiciendis, laborum voluptas
-        molestias quaerat dignissimos quia? Dignissimos id possimus rerum unde
-        ab dicta esse quam.
-      </p>
-
-      <!-- Portfolio Cards -->
-      <div class="portfolio-cards">
-        <!-- Architecture Portfolio Card -->
-        <div class="card architecture">
-          <a href="URL_TO_YOUR_ARCHITECTURE_PORTFOLIO" target="_blank">
-            <img
-              src="path/to/architecture-image.jpg"
-              alt="Architecture Portfolio" />
-            <div class="card-content">
-              <h3>Architecture Portfolio</h3>
-              <p>Discover my architectural designs and projects.</p>
-            </div>
-          </a>
+    <!-- Architecture Portfolio Card -->
+    <div class="card architecture">
+      <a href="URL_TO_YOUR_ARCHITECTURE_PORTFOLIO" target="_blank">
+        <img src="" alt="Architecture Portfolio" />
+        <div class="card-content">
+          <h3>Architecture Portfolio</h3>
+          <p>Discover my architectural designs and projects.</p>
         </div>
+      </a>
+    </div>
+  </section>
 
-        <!-- Web Development Portfolio Card -->
-        <div class="card web-development">
-          <a href="URL_TO_YOUR_WEB_DEVELOPMENT_PORTFOLIO" target="_blank">
-            <img
-              src="path/to/webdev-image.jpg"
-              alt="Web Development Portfolio" />
-            <div class="card-content">
-              <h3>Web Development Portfolio</h3>
-              <p>Check out my coding projects and applications.</p>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Web Development Portfolio Section (will fetch data from JSON files later)-->
-    <section id="webProjects" class="page projects-section">
-      <h2>My Web Development Projects</h2>
-      <div class="projects-grid">
-        <!-- Project 1 -->
-        <div class="project-item">
-          <a href="URL_TO_PROJECT_1" target="_blank">
-            <img src="path/to/project-image1.jpg" alt="Project 1 Description" />
-            <div class="project-info">
-              <h3>Project 1 Title</h3>
-              <p>Short description of Project 1.</p>
-            </div>
-          </a>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="project-item">
-          <a href="URL_TO_PROJECT_2" target="_blank">
-            <img src="path/to/project-image2.jpg" alt="Project 2 Description" />
-            <div class="project-info">
-              <h3>Project 2 Title</h3>
-              <p>Short description of Project 2.</p>
-            </div>
-          </a>
+  <!-- Web Development Portfolio Section (will fetch data from JSON files later)-->
+  <section id="webProjects" class="page section--projects">
+    <h2>My Web Development Projects</h2>
+    <div class="projects-grid">
+      <div class="project-item">
+        <div class="project-info">
         </div>
       </div>
-    </section>
 
-    <!-- Architecture Portfolio Section (will fetch data from JSON files later)-->
-    <section id="archProjects" class="page projects-section">
-      <h2>My Web Development Projects</h2>
-      <div class="projects-grid">
-        <!-- Project 1 -->
-        <div class="project-item">
-          <a href="URL_TO_PROJECT_1" target="_blank">
-            <img src="path/to/project-image1.jpg" alt="Project 1 Description" />
-            <div class="project-info">
-              <h3>Project 1 Title</h3>
-              <p>Short description of Project 1.</p>
-            </div>
-          </a>
-        </div>
+      <!-- Project 2 -->
+      <div class="project-item">
+        <div class="project-info">
 
-        <!-- Project 2 -->
-        <div class="project-item">
-          <a href="URL_TO_PROJECT_2" target="_blank">
-            <img src="path/to/project-image2.jpg" alt="Project 2 Description" />
-            <div class="project-info">
-              <h3>Project 2 Title</h3>
-              <p>Short description of Project 2.</p>
-            </div>
-          </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="page contact-section">
-      <h2>Contact Me</h2>
-      <p>
-        Feel free to reach out if you have any questions or just want to chat!
-      </p>
-
-      <!-- Contact Form - Formspree -->
-      <form
-        action="https://formspree.io/f/{form_id}"
-        method="POST"
-        class="contact-form">
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Your Name"
-            required />
+  <!-- Architecture Portfolio Section (will fetch data from JSON files later)-->
+  <section id="archProjects" class="page projects-section">
+    <h2>Architecture Projects</h2>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-item">
+        <div class="project-info">
+          <h3>Project 1 Title</h3>
+          <p>Short description of Project 1.</p>
         </div>
+        </a>
+      </div>
 
-        <div class="form-group">
-          <label for="email">Your Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your Email"
-            required />
+      <!-- Project 2 -->
+      <div class="project-item">
+        <div class="project-info">
+          <h3>Project 2 Title</h3>
+          <p>Short description of Project 2.</p>
         </div>
+        </a>
+      </div>
+    </div>
+  </section>
 
-        <div class="form-group">
-          <label for="message">Message:</label>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Your Message"
-            rows="4"
-            required></textarea>
-        </div>
+  <!-- Contact Section -->
+  <section id="contact" class="page contact-section">
+    <h2>Contact Me</h2>
+    <p>
+      Feel free to reach out if you have any questions or just want to chat!
+    </p>
 
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
-  </body>
+    <!-- Contact Form - Formspree -->
+    <form action="https://formspree.io/f/{form_id}" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+      </div>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</body>
+
 </html>

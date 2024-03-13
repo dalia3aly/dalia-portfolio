@@ -1,0 +1,72 @@
+[
+    {
+      "id" : 1,
+      "appName": "Our Cattitude",
+      "images": [
+        "./assets/img/webProjects/cat/image3.PNG",
+        "./assets/img/webProjects/cat/image2.PNG",
+        "./assets/img/webProjects/cat/image.PNG",
+        "./assets/img/webProjects/cat/image4.PNG",
+        "./assets/img/webProjects/cat/image5.PNG",
+        "./assets/img/webProjects/cat/image6.PNG",
+        "./assets/img/webProjects/cat/image7.PNG"
+      ],
+      "description": "OurCattitude is a platform that seamlessly captures cat routine and behaviour patterns. It is built with robust front-end and back-end services, allows registered users to manage profiles for multiple cats, covering areas like eating, sleeping, unusual behaviours, litter habits, and activity levels. Real-time data visualization is offered through interactive charts, enabling users to monitor behaviour patterns on demand and generates reports to share with their vets.",
+      "techStack": "React, Vite, Node.js, Express.js, Material-UI, JWT, Bcrypt, Axios, MySQL, Sequelize, Git, GitHub, Figma, Postman, VS Code, Canva and more."
+    },
+    {
+      "id" : 2,
+      "appName": "What's for Dinner?",
+      "images": [
+          "./assets/img/webProjects/whats/image.PNG",
+          "./assets/img/webProjects/whats/image1.PNG",
+          "./assets/img/webProjects/whats/image2.PNG",
+          "./assets/img/webProjects/whats/image3.PNG",
+          "./assets/img/webProjects/whats/image4.PNG",
+          "./assets/img/webProjects/whats/image5.PNG",
+          "./assets/img/webProjects/whats/image6.PNG",
+          "./assets/img/webProjects/whats/image7.PNG"
+      ],
+      "description": "What's for Dinner? is a web application that allows users to search for recipes based on the ingredients they have at home, or browse recipes from their favourite cuisines. Recipes are displayed with a list of ingredients, instructions, and a video tutorial.",
+      "techStack": "React, Vite, Material-UI, Node.js, Axios, Git, Figma and more."
+    },
+    {
+      "id" : 3,
+      "appName": "Melodistic Headphones eCommerce",
+      "images": [
+        "./assets/img/webProjects/melo/image.PNG",
+        "./assets/img/webProjects/melo/image1.PNG",
+        "./assets/img/webProjects/melo/image2.PNG",
+        "./assets/img/webProjects/melo/image3.PNG",
+        "./assets/img/webProjects/melo/image4.PNG",
+        "./assets/img/webProjects/melo/image5.PNG",
+        "./assets/img/webProjects/melo/image6.PNG",
+        "./assets/img/webProjects/melo/image7.PNG",
+        "./assets/img/webProjects/melo/image8.PNG",
+        "./assets/img/webProjects/melo/image9.PNG",
+        "./assets/img/webProjects/melo/image10.PNG"
+      ],
+      "description": "Melodistic is an eCommerce platform that sells headphones and earphones. It is built with simple and neat interface, allowing users to browse products, search for products by any suitable keyword, sort items by price, and add products to their cart. The cart page allowes users to view their selected items, remove items or proceed to checkout.",
+      "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Axios, Git, Figma and more."
+    },
+    {
+      "id" : 4,
+      "appName": "A Song of Ice and Fire",
+      "images": [
+        "./assets/img/webProjects/got/image.PNG",
+        "./assets/img/webProjects/got/image1.PNG",
+        "./assets/img/webProjects/got/image2.PNG",
+        "./assets/img/webProjects/got/image3.PNG",
+        "./assets/img/webProjects/got/image4.PNG",
+        "./assets/img/webProjects/got/image5.PNG",
+        "./assets/img/webProjects/got/image6.PNG",
+        "./assets/img/webProjects/got/image7.PNG",
+        "./assets/img/webProjects/got/image8.PNG",
+        "./assets/img/webProjects/got/image9.PNG",
+        "./assets/img/webProjects/got/image10.PNG"
+      ],
+      "description": "A Song of Ice and Fire is a web application that allows users to search for characters, houses, and books from the Game of Thrones series. Users can also view detailed information about each character and house.",
+      "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Git and more."
+    }
+  ]
+  
