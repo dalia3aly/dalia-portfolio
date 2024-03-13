@@ -36,23 +36,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener('DOMContentLoaded', function() {
   const projectId = localStorage.getItem('selectedProjectId');
-  fetch('./assets/data/webProjects.json') // Adjust path as necessary
+  fetch('./assets/data/webProjects.json') 
     .then(response => response.json())
     .then(projects => {
       const project = projects.find(p => p.id == projectId);
-      if (project) {
-        // Dynamically fill this page with project details
-        document.title = project.appName; // Example of using project data
-        // More code to dynamically create and insert elements based on `project`
+      if (project) {       
+        document.title = project.appName; 
       }
     })
     .catch(error => console.error('Error loading project details:', error));
 });
 
 function openProjectDetails(projectId) {
-  // Assuming localStorage will work across windows opened via window.open
   localStorage.setItem('selectedProjectId', projectId.toString());
 
-  // Open a new window/tab for the project details
   window.open('project-detail.html', '_blank');
 }
