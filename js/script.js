@@ -34,30 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
-
-//  const newWindow = window.open('', '_blank');
-//  newWindow.document.write('<html><head><title>Project Details</title></head><body></body></html>');
-//  newWindow.document.title = 'Project Details';
-//  fetch('../assets/data/webProjects.json')
-//     .then(response => response.json())
-//     .then(projects => {
-//       const project = projects.find(p => p.id === projectId);
-//       if (project) {
-//         newWindow.document.body.innerHTML = `
-//           <h1>${project.appName}</h1>
-//           <img src="${project.images[0]}" alt="${project.description}" />
-//           <p>${project.description}</p>
-//           <div>
-//             ${project.images.map(image => `<img src="${image}" alt="${project.description}" />`).join('')}
-//           </div>
-//         `;
-//       }
-//     })
-//     .catch(error => console.error('Error loading project details:', error));
-
-
-
 document.addEventListener('DOMContentLoaded', function() {
   const projectId = localStorage.getItem('selectedProjectId');
   fetch('./assets/data/webProjects.json') // Adjust path as necessary
