@@ -1,0 +1,176 @@
+.page {
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $secondary-color;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: $primary-color;
+  color: $secondary-color;
+  z-index: 1000;
+
+  nav {
+    @include flex-center;
+    justify-content: space-evenly;
+    padding: 0.25rem 1rem;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0.5 rem;
+    padding: 0;
+
+    li {
+      margin: 0 1rem;
+
+      a {
+        color: $secondary-color;
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: darken(#96acda, 20%);
+        }
+      }
+    }
+  }
+}
+
+.landing-page {
+  @include flex-center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  color: $secondary-color;
+  background: $primary-color;
+
+  h1 {
+    margin: 0.5rem 0;
+  }
+}
+
+.section {
+  &--about {
+    color: $primary-color;
+    text-align: center;
+    margin-top: 0;
+
+    p {
+      margin-left: 4rem;
+      margin-right: 4rem;
+      margin-bottom: 2rem;
+      margin-top: 0;
+      font-weight: 100;
+      font-family: $font-stack;
+    }
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &--projects {
+    padding: 2rem;
+    background: $secondary-color;
+
+    h2 {
+      color: $primary-color;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0; // Zero gap between grid items
+
+      @media screen and (max-width: 820px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      // On mobile screens (max-width: 450px), display only 1 column
+      @media screen and (max-width: 450px) {
+        grid-template-columns: 1fr;
+      }
+
+      .project-item {
+        background: darken(
+          $secondary-color,
+          5%
+        ); 
+        border: 1px solid darken($secondary-color, 20%); // Subtle border effect
+        overflow: hidden;
+        img {
+
+            width: 100%;
+            height: auto; // Maintain aspect ratio
+            object-fit: cover;
+  
+            // Shrink the image if the screen gets smaller than 350px
+            @media screen and (max-width: 350px) {
+              width: 100%;
+              height: auto;
+            }
+          }
+
+        .project-info {
+          padding: 1rem;
+
+          // styling for content inside project-info
+          p {
+            color: $text-color;
+            margin: 0.5rem 0;
+          }
+        }
+
+        // Hover effect to indicate interactivity
+        &:hover {
+          background: darken($secondary-color, 10%);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.section {
+  &--projects {
+    .projects-grid {
+      // Display 4 columns by default
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0; // Zero gap between grid items
+
+      // On iPad screens (max-width: 768px), display 2 columns
+      @media screen and (max-width: 820px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      // On mobile screens (max-width: 450px), display only 1 column
+      @media screen and (max-width: 450px) {
+        grid-template-columns: 1fr;
+      }
+
+    //   .project-item {
+    //     img {
+    //       // Add these properties to make the image flexibly resize
+    //       width: 100%;
+    //       height: auto; // Maintain aspect ratio
+    //       object-fit: cover;
+
+    //       // Shrink the image if the screen gets smaller than 350px
+    //       @media screen and (max-width: 350px) {
+    //         width: 100%;
+    //         height: auto;
+    //       }
+    //     }
+    //   }
+    }
+  }
+}

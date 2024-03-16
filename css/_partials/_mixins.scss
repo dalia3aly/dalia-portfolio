@@ -1,0 +1,28 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  @mixin flex-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  @mixin  portfolios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0; // Zero gap between grid items
+
+    @media screen and (max-width: 820px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    // On mobile screens (max-width: 450px), display only 1 column
+    @media screen and (max-width: 450px) {
+      grid-template-columns: 1fr;
+    }
+  }

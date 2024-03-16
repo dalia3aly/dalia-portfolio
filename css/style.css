@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;700&display=swap");
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: large;
+  color: #333;
+}
+
+p {
+  margin: 1rem;
+  font-weight: 100;
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: lighter;
+  font-size: larger;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: lighter;
+  font-size: larger;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: lighter;
+  font-size: large;
+  text-align: center;
+}
+
+footer {
+  color: #f4f4f4;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: "Oswald", sans-serif;
+  font-size: small;
+  font-weight: lighter;
+  text-align: center;
+  position: fixed;
+  padding-bottom: 0.5rem;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+
+.page {
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #000000;
+  color: #f4f4f4;
+  z-index: 1000;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  padding: 0.25rem 1rem;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0.5 rem;
+  padding: 0;
+}
+header ul li {
+  margin: 0 1rem;
+}
+header ul li a {
+  color: #f4f4f4;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+header ul li a:hover {
+  color: #4b70bf;
+}
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  color: #f4f4f4;
+  background: #000000;
+}
+.landing-page h1 {
+  margin: 0.5rem 0;
+}
+
+.section--about {
+  color: #000000;
+  text-align: center;
+  margin-top: 0;
+}
+.section--about p {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  font-weight: 100;
+  font-family: "Oswald", sans-serif;
+}
+.section--about h2 {
+  margin-bottom: 2rem;
+}
+.section--projects {
+  padding: 2rem;
+  background: #f4f4f4;
+}
+.section--projects h2 {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.section--projects .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+@media screen and (max-width: 820px) {
+  .section--projects .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .section--projects .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.section--projects .projects-grid .project-item {
+  background: #e7e7e7;
+  border: 1px solid #c1c1c1;
+  overflow: hidden;
+}
+.section--projects .projects-grid .project-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+@media screen and (max-width: 350px) {
+  .section--projects .projects-grid .project-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+.section--projects .projects-grid .project-item .project-info {
+  padding: 1rem;
+}
+.section--projects .projects-grid .project-item .project-info p {
+  color: #333;
+  margin: 0.5rem 0;
+}
+.section--projects .projects-grid .project-item:hover {
+  background: #dbdbdb;
+  cursor: pointer;
+}
+
+.section--projects .projects-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+@media screen and (max-width: 820px) {
+  .section--projects .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .section--projects .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.social-media-icons {
+  margin: 3rem;
+}
+.social-media-icons a {
+  margin: 1rem;
+  color: #000000;
+}
+
+.contact-section {
+  padding: 2rem;
+  background: #f4f4f4;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.contact-section h2 {
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.contact-section .contact-form {
+  min-width: 40%;
+  width: auto;
+  margin: auto;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+@media (max-width: 820px) {
+  .contact-section .contact-form {
+    width: 90%;
+    padding: 20px;
+  }
+}
+.contact-section .contact-form .form-group {
+  margin: 1rem;
+  text-align: left;
+}
+.contact-section .contact-form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+.contact-section .contact-form .form-group input, .contact-section .contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+.contact-section .contact-form .form-group input:focus, .contact-section .contact-form .form-group textarea:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.contact-section .contact-form .form-group textarea {
+  resize: vertical;
+}
+.contact-section .contact-form button[type=submit] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  background-color: #000000;
+  color: #f4f4f4;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.contact-section .contact-form button[type=submit]:hover {
+  background-color: black;
+}
+
+.content--image {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.portfolios-button {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0;
+}
+@media screen and (max-width: 820px) {
+  .portfolios-button {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .portfolios-button {
+    grid-template-columns: 1fr;
+  }
+}
+.portfolios-button .card {
+  position: relative;
+  overflow: hidden;
+}
+.portfolios-button .card:hover {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}
+.portfolios-button .card .card-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.portfolios-button .card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.portfolios-button .card h3 {
+  position: absolute;
+  bottom: 0;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+}
+
+.project-info {
+  padding: 1rem;
+  text-align: center;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f4f4f4;
+}
+
+.fab {
+  font-size: 2.5em;
+  color: #96acda;
+}
+.fab:hover {
+  color: #f4f4f4;
+  transition: color 1s ease;
+  transform: skew(5deg, 5deg);
+}
+
+/*# sourceMappingURL=style.css.map */

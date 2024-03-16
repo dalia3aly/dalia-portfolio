@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('../assets/data/webProjects.json') 
       .then(response => {
         if (!response.ok) {
+          // If the response is not OK (i.e. 404, 500, etc.), log the error to the console
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         return response.json();
@@ -19,10 +20,10 @@ document.addEventListener("DOMContentLoaded", function() {
           projectItem.className = 'project-item';
           projectItem.innerHTML = `
             <a href="javascript:void(0);" onclick="openProjectDetails(${project.id})">
-              <img src="${project.images[0]}" alt="${project.description}" />
+              <img src="${project.logo}" alt="${project.appName}" />
               <div class="project-info">
                 <h3>${project.appName}</h3>
-                <p>${project.description}</p>
+               <!-- <p>${project.description}</p> -->
               </div>
             </a>
           `;
@@ -33,16 +34,12 @@ document.addEventListener("DOMContentLoaded", function() {
       .catch(error => console.error('Error loading projects:', error));
 });
 
-
 document.addEventListener('DOMContentLoaded', function() {
   const projectId = localStorage.getItem('selectedProjectId');
   fetch('./assets/data/webProjects.json') 
     .then(response => response.json())
     .then(projects => {
       const project = projects.find(p => p.id == projectId);
-      if (project) {       
-        document.title = project.appName; 
-      }
     })
     .catch(error => console.error('Error loading project details:', error));
 });
