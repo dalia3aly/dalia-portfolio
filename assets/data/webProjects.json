@@ -70,8 +70,7 @@
         "./assets/img/webProjects/got/image6.PNG",
         "./assets/img/webProjects/got/image7.PNG",
         "./assets/img/webProjects/got/image8.PNG",
-        "./assets/img/webProjects/got/image9.PNG",
-        "./assets/img/webProjects/got/image10.PNG"
+        "./assets/img/webProjects/got/image9.PNG"
       ],
       "description": "A Song of Ice and Fire is a web application that allows users to search for characters, houses, and books from the Game of Thrones series. Users can also view detailed information about each character and house.",
       "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Git and more.",
