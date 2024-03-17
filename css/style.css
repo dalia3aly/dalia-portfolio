@@ -177,6 +177,7 @@ header ul li a:hover {
 }
 
 .section--projects .projects-grid {
+  margin-bottom: 3rem;
   grid-template-columns: repeat(4, 1fr);
   gap: 0;
 }
@@ -203,7 +204,7 @@ header ul li a:hover {
 }
 @media screen and (min-width: 1024px) {
   .project-details-grid {
-    grid-template-columns: repeat(1, 0.8fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .project-details-grid img {
@@ -213,7 +214,7 @@ header ul li a:hover {
 }
 @media screen and (min-width: 1024px) {
   .project-details-grid img {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
   }
 }

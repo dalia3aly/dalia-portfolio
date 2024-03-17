@@ -149,6 +149,7 @@ header {
 .section {
   &--projects {
     .projects-grid {
+      margin-bottom: 3rem;
       // Display 4 columns by default
       grid-template-columns: repeat(4, 1fr);
       gap: 0; // Zero gap between grid items
@@ -177,13 +178,11 @@ header {
     @media screen and (min-width: 768px) {
       // For tablets and upwards, adjust if necessary
       grid-template-columns: repeat(1, 1fr); // single column layout
-
     }
   
     @media screen and (min-width: 1024px) {
       // For laptops and larger screens
-      grid-template-columns: repeat(1, 0.8fr);
-    
+      grid-template-columns: repeat(1, 1fr);
     }
   
     img {
@@ -192,7 +191,7 @@ header {
       object-fit: cover;
   
       @media screen and (min-width: 1024px) {
-        width: 50%; // Image width is 50% of the container's width on larger screens
+        width: 60%;     // Image width is 60% of the container's width on larger screens
         margin: 0 auto;
       }
     }
