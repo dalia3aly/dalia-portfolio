@@ -5,46 +5,48 @@ document.addEventListener("DOMContentLoaded", function() {
         return;
     }
 
-    fetch('../assets/data/webProjects.json')     // adjust this path to the JSON file if needed
+    fetch('../assets/data/webProjects.json') // Adjust the path as necessary
         .then(response => response.json())
         .then(projects => {
             const project = projects.find(p => p.id.toString() === projectId);
             if (project) {
-                // Dynamically setting the page title to the project's appName
                 document.title = project.appName;
                 
-                // Assuming there's a container div in project-details.html with id="project-details"
                 const detailsContainer = document.getElementById('project-details');
                 if (!detailsContainer) {
                     console.error('Project details container not found.');
                     return;
                 }
+                
+                detailsContainer.innerHTML = ''; // Clearing detailsContainer before adding new content
 
-                // Clearing detailsContainer before adding new content
-                detailsContainer.innerHTML = '';
-
-                // Creating and appending the project title
                 const titleElement = document.createElement('h2');
                 titleElement.textContent = project.appName;
                 detailsContainer.appendChild(titleElement);
 
-                // Creating and appending the project description
                 const descriptionElement = document.createElement('p');
                 descriptionElement.textContent = project.description;
                 detailsContainer.appendChild(descriptionElement);
 
-                // Creating and appending the techStack
                 const techStackElement = document.createElement('p');
                 techStackElement.textContent = `Technologies used: ${project.techStack}`;
                 detailsContainer.appendChild(techStackElement);
+                
+                // Create a new container for images with the 'project-details-grid' class
+                const gridContainer = document.createElement('div');
+                gridContainer.className = 'project-details-grid'; // Assigning the new class
+                
+                // Append the grid container to the detailsContainer
+                detailsContainer.appendChild(gridContainer);
 
-                // Creating and appending image elements for each fetched image
+                // Creating and appending image elements to the gridContainer
                 project.images.forEach(imageSrc => {
                     const imgElement = document.createElement('img');
                     imgElement.src = imageSrc;
                     imgElement.alt = project.appName;
-                    imgElement.style.width = '50%';
-                    detailsContainer.appendChild(imgElement);
+                    // Apply initial width, which will be overridden by CSS @media queries
+                    imgElement.style.width = '100%'; 
+                    gridContainer.appendChild(imgElement); // Now appending images to the gridContainer
                 });
             } else {
                 console.error('Project not found.');

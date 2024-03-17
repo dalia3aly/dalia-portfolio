@@ -16,19 +16,24 @@ header {
   z-index: 1000;
 
   nav {
-    @include flex-center;
-    justify-content: space-evenly;
+    @include flex-text;
     padding: 0.25rem 1rem;
+
   }
 
   ul {
     list-style: none;
     display: flex;
-    margin: 0.5 rem;
+    margin: 0.5rem;
     padding: 0;
 
     li {
       margin: 0 1rem;
+      font-size: 1.25rem;
+      @media screen and (max-width: 450px) {
+        margin: 0 0.5rem;
+        font-size: 0.85rem;
+      }
 
       a {
         color: $secondary-color;
@@ -63,16 +68,21 @@ header {
     margin-top: 0;
 
     p {
-      margin-left: 4rem;
-      margin-right: 4rem;
-      margin-bottom: 2rem;
+      font-size: 1.25rem;
       margin-top: 0;
+      margin-bottom: 1.5rem;
       font-weight: 100;
       font-family: $font-stack;
+      max-width: 70%;
+
+      @media screen and (max-width: 450px){
+        font-size:smaller;
+        max-width: 100%;
+      }
     }
 
     h2 {
-      margin-bottom: 2rem;
+      margin-bottom: 0.5rem;
     }
   }
 
@@ -101,38 +111,34 @@ header {
       }
 
       .project-item {
-        background: darken(
-          $secondary-color,
-          5%
-        ); 
-        border: 1px solid darken($secondary-color, 20%); // Subtle border effect
+
         overflow: hidden;
         img {
 
             width: 100%;
-            height: auto; // Maintain aspect ratio
+            height: auto; // maintain aspect ratio
             object-fit: cover;
   
-            // Shrink the image if the screen gets smaller than 350px
+            // enlarge the image if the screen gets smaller than 350px
             @media screen and (max-width: 350px) {
-              width: 100%;
+              width: 50%;
               height: auto;
             }
           }
 
         .project-info {
-          padding: 1rem;
+          padding: 0.75rem;
 
-          // styling for content inside project-info
-          p {
-            color: $text-color;
+          h2 {
+            color: $primary-color;
             margin: 0.5rem 0;
+            text-decoration: none;
           }
         }
 
         // Hover effect to indicate interactivity
         &:hover {
-          background: darken($secondary-color, 10%);
+          background: darken($secondary-color, 25%);
           cursor: pointer;
         }
       }
@@ -152,25 +158,43 @@ header {
         grid-template-columns: repeat(2, 1fr);
       }
 
-      // On mobile screens (max-width: 450px), display only 1 column
+      // On mobile screens, display only 1 column
       @media screen and (max-width: 450px) {
         grid-template-columns: 1fr;
       }
-
-    //   .project-item {
-    //     img {
-    //       // Add these properties to make the image flexibly resize
-    //       width: 100%;
-    //       height: auto; // Maintain aspect ratio
-    //       object-fit: cover;
-
-    //       // Shrink the image if the screen gets smaller than 350px
-    //       @media screen and (max-width: 350px) {
-    //         width: 100%;
-    //         height: auto;
-    //       }
-    //     }
-    //   }
     }
   }
 }
+
+// for project details page created in projectDetails.js
+
+.project-details-grid {
+    display: grid;
+    gap: 1rem; // No gap between items?
+    justify-content: center;
+    
+    
+    @media screen and (min-width: 768px) {
+      // For tablets and upwards, adjust if necessary
+      grid-template-columns: repeat(1, 1fr); // single column layout
+
+    }
+  
+    @media screen and (min-width: 1024px) {
+      // For laptops and larger screens
+      grid-template-columns: repeat(1, 0.8fr);
+    
+    }
+  
+    img {
+      width: 100%; // Full width on mobile and tablets
+      height: auto; // Maintain aspect ratio
+      object-fit: cover;
+  
+      @media screen and (min-width: 1024px) {
+        width: 50%; // Image width is 50% of the container's width on larger screens
+        margin: 0 auto;
+      }
+    }
+  }
+

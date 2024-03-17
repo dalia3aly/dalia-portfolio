@@ -32,7 +32,7 @@
     <div class="content">
       <img src="./assets/img/logo.png" alt="Dalia's Logo" class="content--image" />
       <h1>Welcome to my portfolio</h1>
-      <p>Discover my projects and get to know me</p>
+      <!-- <p>Discover my projects and get to know me</p> -->
     </div>
     <div class="social-media-icons">
       <!-- social media icons & links -->
@@ -50,49 +50,50 @@
     <h2>About Me</h2>
     <p class="solid">
       I'm Dalia, a professional with a rich and mixed
-      background in Architecture and Software Engineering. 
+      background in Architecture and Software Engineering.
     </p>
     <p>
-        Architecture taught me the beauty of
-        design, the importance of a solid foundation, and the technicalities of
-        bringing complex projects to life. From conceptual sketches to detailed
-        plans, every step in creating a structure mirrored the process of
-        solving real-world problems with elegance and efficiency. This
-        experience instilled in me a deep appreciation for meticulous planning,
-        innovative design solutions, and the relentless pursuit of excellence in my new career in Software Engineering.
-      </p>
+      Architecture taught me the beauty of
+      design, the importance of a solid foundation, and the technicalities of
+      bringing complex projects to life. From conceptual sketches to detailed
+      plans, every step in creating a structure mirrored the process of
+      solving real-world problems with elegance and efficiency. This
+      experience instilled in me a deep appreciation for meticulous planning,
+      innovative design solutions, and the relentless pursuit of excellence in my current career in Software
+      Engineering.
+    </p>
 
     <!-- Portfolio Cards -->
     <div class="portfolios-button">
       <!-- Web Development Portfolio Card -->
       <div class="card portfolio--card">
-          <a href="#webProjects">
-              <div class="card-content">
-                  <img src="assets/img/web-card.png" alt="Web Development Portfolio" />
-                  <h3>Web Development Portfolio</h3>
-              </div>
-          </a>
+        <a href="#webProjects">
+          <div class="card-content">
+            <img src="assets/img/web-card.png" alt="Web Development Portfolio" />
+            <h3>Web Development Portfolio</h3>
+          </div>
+        </a>
       </div>
-  
+
       <!-- Architecture Portfolio Card -->
       <div class="card portfolio--card">
-          <a href="#archProjects">
-              <div class="card-content">
-                  <img src="assets/img/AR.png" alt="Architecture Portfolio" />
-                  <h3>Architecture Portfolio</h3>
-              </div>
-          </a>
+        <a href="#archProjects">
+          <div class="card-content">
+            <img src="assets/img/AR.png" alt="Architecture Portfolio" />
+            <h3>Architecture Portfolio</h3>
+          </div>
+        </a>
       </div>
-  </div>
+    </div>
   </section>
 
   <!-- Web Development Portfolio Section (will fetch data from JSON files later)-->
   <section id="webProjects" class="page section--projects">
     <h2>Web Development Projects</h2>
     <div class="projects-grid">
-      
+
       <!-- Projects grid will dynamically fill this area -->
-      
+
     </div>
   </section>
 
@@ -122,30 +123,31 @@
 
   <!-- Contact Section -->
   <section id="contact" class="page contact-section">
-    <h2>Contact Me</h2>
-    <p>
-      Feel free to reach out if you have any questions or just want to chat!
-    </p>
+    <div>
+      <h2>Contact Me</h2>
+      <p>
+        Feel free to reach out if you have any questions or just want to chat!
+      </p>
 
-    <!-- Contact Form by Formspree directed to my email -->
-    <form action="https://formspree.io/f/xbjnajjr" method="POST" class="contact-form">
-      <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your Name" required />
-      </div>
+      <!-- Contact Form by Formspree directed to my email -->
+      <form action="https://formspree.io/f/xbjnajjr" method="POST" class="contact-form">
 
-      <div class="form-group">
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" placeholder="Your Email" required />
-      </div>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required />
 
-      <div class="form-group">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
-      </div>
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required />
 
-      <button type="submit">Send Message</button>
-    </form>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Your Message" rows="4" required>
+          </textarea>
+
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+
+    </div>
   </section>
 
   <footer>

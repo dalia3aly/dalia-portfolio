@@ -1,23 +1,20 @@
 // Social Media Icons - This can remain largely unchanged
 .social-media-icons {
   margin: 3rem;
-  
+
   a {
     margin: 1rem;
     color: $primary-color;
-
   }
 }
 
 // Unified Contact Section
 .contact-section {
+  @include flex-center;
   padding: 2rem;
-  background: $secondary-color; // Consider background image addition here..
+  background: $secondary-color;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  height: 100vh;
   box-sizing: border-box;
 
   // Styles that apply to all states
@@ -25,7 +22,6 @@
     color: $primary-color;
     margin-bottom: 1rem;
   }
-
 
   // Contact Form Styles
   .contact-form {
@@ -47,7 +43,7 @@
     .form-group {
       margin: 1rem;
       text-align: left;
-      
+
       label {
         display: block;
         margin-bottom: 0.5rem;
@@ -55,7 +51,8 @@
       }
 
       // Input and Textarea Styling
-      input, textarea {
+      input,
+      textarea {
         width: 100%;
         padding: 0.5rem;
         border: 1px solid darken($secondary-color, 10%);
@@ -75,10 +72,9 @@
 
     // Submit Button Styling
     button[type="submit"] {
-      @include flex-center; 
       width: 100%;
-      padding: 0.75rem;
-      border: none;
+      padding: 0.5rem;
+      margin: 0.5rem;
       background-color: $primary-color;
       color: $secondary-color;
       font-size: 1rem;
@@ -99,7 +95,6 @@
   margin: 0;
 }
 
-
 .portfolios-button {
   @include portfolios-grid;
 
@@ -110,22 +105,19 @@
     &:hover {
       transform: scale(0.95);
       transition: transform 0.1s ease;
-  }
-
-  .card-content {
-    position: relative;
-    width: 100%;
-    height: 100%;
-
     }
 
+    .card-content {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
 
     img {
       width: 100%;
       height: auto;
       display: block; // Ensures the image does not have extra space below
-      object-fit: cover; 
-
+      object-fit: cover;
     }
 
     h3 {
@@ -134,19 +126,34 @@
       padding: 0.5rem;
       width: 100%;
       background-color: rgba(0, 0, 0, 0.5);
-      color:  $secondary-color;
+      color: $secondary-color;
       text-align: center;
       margin: 0; // Removes default margin
     }
   }
 }
 
-
 .project-info {
   padding: 1rem;
   text-align: center;
-  border: none;
-  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid darken($secondary-color, 20%);
+  background-color: rgba(0, 0, 0, 0.1);
   color: $secondary-color;
+  text-decoration: none;
+}
 
+footer {
+  color: $secondary-color;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  p {
+    margin-top: 0.25rem;
+    font-family: $font-stack;
+    font-size: small;
+    font-weight: lighter;
+  }
 }

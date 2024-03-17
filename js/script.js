@@ -22,8 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <a href="javascript:void(0);" onclick="openProjectDetails(${project.id})">
               <img src="${project.logo}" alt="${project.appName}" />
               <div class="project-info">
-                <h3>${project.appName}</h3>
-               <!-- <p>${project.description}</p> -->
+                <h2>${project.appName}</h2>
               </div>
             </a>
           `;

@@ -10,7 +10,8 @@ body, html {
 
 p {
   margin: 1rem;
-  font-weight: 100;
+  font-size: 1rem;
+  font-weight: lighter;
   font-family: "Oswald", sans-serif;
 }
 
@@ -23,7 +24,7 @@ h1 {
 h2 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: lighter;
-  font-size: larger;
+  font-size: 600;
   text-align: center;
 }
 
@@ -34,18 +35,8 @@ h3 {
   text-align: center;
 }
 
-footer {
-  color: #f4f4f4;
-  background-color: rgba(0, 0, 0, 0.9);
-  font-family: "Oswald", sans-serif;
-  font-size: small;
-  font-weight: lighter;
-  text-align: center;
-  position: fixed;
-  padding-bottom: 0.5rem;
-  bottom: 0;
-  width: 100%;
-  height: 2rem;
+a {
+  text-decoration: none;
 }
 
 .page {
@@ -67,20 +58,26 @@ header {
 }
 header nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   padding: 0.25rem 1rem;
 }
 header ul {
   list-style: none;
   display: flex;
-  margin: 0.5 rem;
+  margin: 0.5rem;
   padding: 0;
 }
 header ul li {
   margin: 0 1rem;
+  font-size: 1.25rem;
+}
+@media screen and (max-width: 450px) {
+  header ul li {
+    margin: 0 0.5rem;
+    font-size: 0.85rem;
+  }
 }
 header ul li a {
   color: #f4f4f4;
@@ -112,15 +109,21 @@ header ul li a:hover {
   margin-top: 0;
 }
 .section--about p {
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-bottom: 2rem;
+  font-size: 1.25rem;
   margin-top: 0;
+  margin-bottom: 1.5rem;
   font-weight: 100;
   font-family: "Oswald", sans-serif;
+  max-width: 70%;
+}
+@media screen and (max-width: 450px) {
+  .section--about p {
+    font-size: smaller;
+    max-width: 100%;
+  }
 }
 .section--about h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 .section--projects {
   padding: 2rem;
@@ -147,8 +150,6 @@ header ul li a:hover {
   }
 }
 .section--projects .projects-grid .project-item {
-  background: #e7e7e7;
-  border: 1px solid #c1c1c1;
   overflow: hidden;
 }
 .section--projects .projects-grid .project-item img {
@@ -158,19 +159,20 @@ header ul li a:hover {
 }
 @media screen and (max-width: 350px) {
   .section--projects .projects-grid .project-item img {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 }
 .section--projects .projects-grid .project-item .project-info {
-  padding: 1rem;
+  padding: 0.75rem;
 }
-.section--projects .projects-grid .project-item .project-info p {
-  color: #333;
+.section--projects .projects-grid .project-item .project-info h2 {
+  color: #000000;
   margin: 0.5rem 0;
+  text-decoration: none;
 }
 .section--projects .projects-grid .project-item:hover {
-  background: #dbdbdb;
+  background: #b4b4b4;
   cursor: pointer;
 }
 
@@ -189,6 +191,33 @@ header ul li a:hover {
   }
 }
 
+.project-details-grid {
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .project-details-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .project-details-grid {
+    grid-template-columns: repeat(1, 0.8fr);
+  }
+}
+.project-details-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+@media screen and (min-width: 1024px) {
+  .project-details-grid img {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
 .social-media-icons {
   margin: 3rem;
 }
@@ -198,13 +227,14 @@ header ul li a:hover {
 }
 
 .contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
   padding: 2rem;
   background: #f4f4f4;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  height: 100vh;
   box-sizing: border-box;
 }
 .contact-section h2 {
@@ -235,13 +265,15 @@ header ul li a:hover {
   margin-bottom: 0.5rem;
   color: black;
 }
-.contact-section .contact-form .form-group input, .contact-section .contact-form .form-group textarea {
+.contact-section .contact-form .form-group input,
+.contact-section .contact-form .form-group textarea {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #dbdbdb;
   border-radius: 4px;
 }
-.contact-section .contact-form .form-group input:focus, .contact-section .contact-form .form-group textarea:focus {
+.contact-section .contact-form .form-group input:focus,
+.contact-section .contact-form .form-group textarea:focus {
   outline: none;
   border-color: #000000;
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
@@ -250,13 +282,9 @@ header ul li a:hover {
   resize: vertical;
 }
 .contact-section .contact-form button[type=submit] {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
   width: 100%;
-  padding: 0.75rem;
-  border: none;
+  padding: 0.5rem;
+  margin: 0.5rem;
   background-color: #000000;
   color: #f4f4f4;
   font-size: 1rem;
@@ -322,9 +350,26 @@ header ul li a:hover {
 .project-info {
   padding: 1rem;
   text-align: center;
-  border: none;
-  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #c1c1c1;
+  background-color: rgba(0, 0, 0, 0.1);
   color: #f4f4f4;
+  text-decoration: none;
+}
+
+footer {
+  color: #f4f4f4;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+footer p {
+  margin-top: 0.25rem;
+  font-family: "Oswald", sans-serif;
+  font-size: small;
+  font-weight: lighter;
 }
 
 .fab {
