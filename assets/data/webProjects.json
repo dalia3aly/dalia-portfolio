@@ -1,12 +1,12 @@
 [
     {
       "id" : 1,
-      "logo": "/assets/img/webProjects/cat/logo.PNG",
+      "logo": "/assets/img/logo.PNG",
       "appName": "Our Cattitude",
       "images": [
-        "/assets/img/webProjects/cat/image0.PNG",
-        "/assets/img/webProjects/cat/image1.PNG",
-        "/assets/img/webProjects/cat/image2.PNG",
+        "/assets/img/image0.PNG",
+        "/assets/img/image1.PNG",
+        "/assets/img/image2.PNG",
         "/assets/img/webProjects/cat/image3.PNG",
         "/assets/img/webProjects/cat/image4.PNG",
         "/assets/img/webProjects/cat/image5.PNG",
