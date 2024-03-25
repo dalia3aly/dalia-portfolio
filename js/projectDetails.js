@@ -98,6 +98,11 @@ function loadProjectDetails(jsonPath) {
                 techStackElement.textContent = `Technologies used: ${project.techStack}`;
                 detailsContainer.appendChild(techStackElement);
 
+                const deployedLinkElement = document.createElement('a');
+                deployedLinkElement.href = project.deployedLink;
+                deployedLinkElement.textContent = `${project.deployedLink}`;
+                detailsContainer.appendChild(deployedLinkElement);
+
                 const myRoleElement = document.createElement('p');
                 myRoleElement.textContent = `${project.myRole}`;
                 detailsContainer.appendChild(myRoleElement);

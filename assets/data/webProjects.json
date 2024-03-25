@@ -19,6 +19,7 @@
       ],
       "description": "OurCattitude is a platform that seamlessly captures cat routine and behaviour patterns. It is built with robust front-end and back-end services, allows registered users to manage profiles for multiple cats, covering areas like eating, sleeping, unusual behaviours, litter habits, and activity levels. Real-time data visualization is offered through interactive charts, enabling users to monitor behaviour patterns on demand and generates reports to share with their vets.",
       "techStack": "React, Vite, Node.js, Express.js, Material-UI, JWT, Bcrypt, Axios, MySQL, Sequelize, Git, GitHub, Figma, Postman, VS Code, Canva and more.",
+      "deployedLink": "https://ourcattitude.com",
       "myRole": ""
     },
     {
@@ -36,6 +37,7 @@
       ],
       "description": "What's for Dinner? is a web application that allows users to search for recipes based on the ingredients they have at home, or browse recipes from their favourite cuisines. Recipes are displayed with a list of ingredients, instructions, and a video tutorial.",
       "techStack": "React, Vite, Material-UI, Node.js, Axios, Git, Figma and more.",
+      "deployedLink": "https://whats4dinner-d.netlify.app/",
       "myRole": ""
     },
     {
@@ -54,6 +56,7 @@
       ],
       "description": "Melodistic is an eCommerce platform that sells headphones and earphones. It is built with simple and neat interface, allowing users to browse products, search for products by any suitable keyword, sort items by price, and add products to their cart. The cart page allowes users to view their selected items, remove items or proceed to checkout.",
       "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Axios, Git, Figma and more.",
+      "deployedLink": "https://dalia3aly.github.io/melodisticEcommerce/",
       "myRole": ""
     },
     {
@@ -74,7 +77,7 @@
       ],
       "description": "A Song of Ice and Fire is a web application that allows users to search for characters, houses, and books from the Game of Thrones series. Users can also view detailed information about each character and house.",
       "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Git and more.",
+      "deployedLink": "https://go-t-three.vercel.app/",
       "myRole": ""
     }
   ]
-  
