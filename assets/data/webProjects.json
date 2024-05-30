@@ -1,83 +1,139 @@
 [
-    {
-      "id" : 1,
-      "logo": "/assets/img/webProjects/cat/logo.PNG",
-      "appName": "Our Cattitude",
-      "images": [
-        "/assets/img/webProjects/cat/image0.PNG",
-        "/assets/img/webProjects/cat/image1.PNG",
-        "/assets/img/webProjects/cat/image2.PNG",
-        "/assets/img/webProjects/cat/image3.PNG",
-        "/assets/img/webProjects/cat/image4.PNG",
-        "/assets/img/webProjects/cat/image5.PNG",
-        "/assets/img/webProjects/cat/image6.PNG",
-        "/assets/img/webProjects/cat/image7.PNG",
-        "/assets/img/webProjects/cat/image8.PNG",
-        "/assets/img/webProjects/cat/image9.PNG",
-        "/assets/img/webProjects/cat/image10.PNG",
-        "/assets/img/webProjects/cat/image11.PNG"
-      ],
-      "description": "OurCattitude is a platform that seamlessly captures cat routine and behaviour patterns. It is built with robust front-end and back-end services, allows registered users to manage profiles for multiple cats, covering areas like eating, sleeping, unusual behaviours, litter habits, and activity levels. Real-time data visualization is offered through interactive charts, enabling users to monitor behaviour patterns on demand and generates reports to share with their vets.",
-      "techStack": "React, Vite, Node.js, Express.js, Material-UI, JWT, Bcrypt, Axios, MySQL, Sequelize, Git, GitHub, Figma, Postman, VS Code, Canva and more.",
-      "deployedLink": "https://ourcattitude.com",
-      "myRole": ""
-    },
-    {
-      "id" : 2,
-      "logo": "./assets/img/webProjects/whats/logo.PNG",
-      "appName": "What's for Dinner?",
-      "images": [
-          "./assets/img/webProjects/whats/image.PNG",
-          "./assets/img/webProjects/whats/image1.PNG",
-          "./assets/img/webProjects/whats/image2.PNG",
-          "./assets/img/webProjects/whats/image3.PNG",
-          "./assets/img/webProjects/whats/image4.PNG",
-          "./assets/img/webProjects/whats/image5.PNG",
-          "./assets/img/webProjects/whats/image6.PNG"
-      ],
-      "description": "What's for Dinner? is a web application that allows users to search for recipes based on the ingredients they have at home, or browse recipes from their favourite cuisines. Recipes are displayed with a list of ingredients, instructions, and a video tutorial.",
-      "techStack": "React, Vite, Material-UI, Node.js, Axios, Git, Figma and more.",
-      "deployedLink": "https://whats4dinner-d.netlify.app/",
-      "myRole": ""
-    },
-    {
-      "id" : 3,
-      "logo": "./assets/img/webProjects/melo/logo.PNG",
-      "appName": "Melodistic",
-      "images": [
-        "./assets/img/webProjects/melo/image0.PNG",
-        "./assets/img/webProjects/melo/image1.PNG",
-        "./assets/img/webProjects/melo/image2.PNG",
-        "./assets/img/webProjects/melo/image3.PNG",
-        "./assets/img/webProjects/melo/image4.PNG",
-        "./assets/img/webProjects/melo/image5.PNG",
-        "./assets/img/webProjects/melo/image6.PNG",
-        "./assets/img/webProjects/melo/image7.PNG"
-      ],
-      "description": "Melodistic is an eCommerce platform that sells headphones and earphones. It is built with simple and neat interface, allowing users to browse products, search for products by any suitable keyword, sort items by price, and add products to their cart. The cart page allowes users to view their selected items, remove items or proceed to checkout.",
-      "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Axios, Git, Figma and more.",
-      "deployedLink": "https://dalia3aly.github.io/melodisticEcommerce/",
-      "myRole": ""
-    },
-    {
-      "id" : 4,
-      "logo": "./assets/img/webProjects/got/logo.PNG",
-      "appName": "A Song of Ice & Fire",
-      "images": [
-        "./assets/img/webProjects/got/image.PNG",
-        "./assets/img/webProjects/got/image1.PNG",
-        "./assets/img/webProjects/got/image2.PNG",
-        "./assets/img/webProjects/got/image3.PNG",
-        "./assets/img/webProjects/got/image4.PNG",
-        "./assets/img/webProjects/got/image5.PNG",
-        "./assets/img/webProjects/got/image6.PNG",
-        "./assets/img/webProjects/got/image7.PNG",
-        "./assets/img/webProjects/got/image8.PNG",
-        "./assets/img/webProjects/got/image9.PNG"
-      ],
-      "description": "A Song of Ice and Fire is a web application that allows users to search for characters, houses, and books from the Game of Thrones series. Users can also view detailed information about each character and house.",
-      "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Git and more.",
-      "deployedLink": "https://go-t-three.vercel.app/",
-      "myRole": ""
-    }
-  ]
+  {
+    "id": 1,
+    "logo": "/assets/img/webProjects/cat/logo.PNG",
+    "appName": "Our Cattitude",
+    "images": [
+      "/assets/img/webProjects/cat/image0.PNG",
+      "/assets/img/webProjects/cat/image1.PNG",
+      "/assets/img/webProjects/cat/image2.PNG",
+      "/assets/img/webProjects/cat/image3.PNG",
+      "/assets/img/webProjects/cat/image4.PNG",
+      "/assets/img/webProjects/cat/image5.PNG",
+      "/assets/img/webProjects/cat/image6.PNG",
+      "/assets/img/webProjects/cat/image7.PNG",
+      "/assets/img/webProjects/cat/image8.PNG",
+      "/assets/img/webProjects/cat/image9.PNG",
+      "/assets/img/webProjects/cat/image10.PNG",
+      "/assets/img/webProjects/cat/image11.PNG"
+    ],
+    "description": "OurCattitude is an evolving personal project. It's a platform that seamlessly captures cat routine and behaviour patterns. It is built with robust front-end and back-end services, allows registered users to manage profiles for multiple cats, covering areas like eating, sleeping, unusual behaviours, litter habits, and activity levels. Real-time data visualization is offered through interactive charts, enabling users to monitor behaviour patterns on demand and generates reports to share with their vets.",
+    "techStack": "React, Vite, Node.js, Express.js, Material-UI, JWT, Bcrypt, Axios, MySQL, Sequelize ORM, Git, Figma, Postman, Canva and more.",
+    "deployedLink": "https://ourcattitude.com",
+    "myRole": ""
+  },
+  {
+    "id": 2,
+    "logo": "./assets/img/webProjects/whats/logo.PNG",
+    "appName": "What's for Dinner?",
+    "images": [
+      "./assets/img/webProjects/whats/image.PNG",
+      "./assets/img/webProjects/whats/image1.PNG",
+      "./assets/img/webProjects/whats/image2.PNG",
+      "./assets/img/webProjects/whats/image3.PNG",
+      "./assets/img/webProjects/whats/image4.PNG",
+      "./assets/img/webProjects/whats/image5.PNG",
+      "./assets/img/webProjects/whats/image6.PNG"
+    ],
+    "description": "What's for Dinner? is a frontend web application that allows users to search for recipes based on the ingredients they have at home, or browse recipes from their favourite cuisines. Recipes are displayed with a list of ingredients, instructions, and a video tutorial.",
+    "techStack": "React 18, Vite, Material-UI, Node.js, Axios, Git, Figma and more.",
+    "deployedLink": "https://whats4dinner-d.netlify.app/",
+    "myRole": ""
+  },
+  {
+    "id": 3,
+    "logo": "/assets/img/webProjects/itstime/logo.png",
+    "appName": "It's-Time",
+    "images": [
+      "/assets/img/webProjects/itstime/image1.png",
+      "/assets/img/webProjects/itstime/image2.png",
+      "/assets/img/webProjects/itstime/image3.png",
+      "/assets/img/webProjects/itstime/image4.png",
+      "/assets/img/webProjects/itstime/image5.png",
+      "/assets/img/webProjects/itstime/image6.png",
+      "/assets/img/webProjects/itstime/image7.png",
+      "/assets/img/webProjects/itstime/image8.png"
+    ],
+    "description": "IT'S TIME is a sophisticated full-stack e-commerce platform dedicated to offering a range of Swiss watches, designed with modern web technologies. This platform leverages React, Firebase, and a meticulously designed Cart Context to provide a seamless shopping experience and real-time database interactions, including user authentication, product filtering, and sorting. The platform also features a responsive design, allowing users to browse and add products to cart on any device.",
+    "techStack": "React 18, Vite, Node.js, SCSS Modules, Firebase, Git, Figma, Postman, Canva and more.",
+    "deployedLink": "https://itstime-watches.netlify.app/",
+    "myRole": ""
+  },
+  {
+    "id": 4,
+    "logo": "./assets/img/webProjects/kotob/logo.PNG",
+    "appName": "KOTOB",
+    "images": [
+      "./assets/img/webProjects/kotob/image1.PNG",
+      "./assets/img/webProjects/kotob/image2.PNG",
+      "./assets/img/webProjects/kotob/image3.PNG",
+      "./assets/img/webProjects/kotob/image4.PNG",
+      "./assets/img/webProjects/kotob/image5.PNG",
+      "./assets/img/webProjects/kotob/image6.PNG",
+      "./assets/img/webProjects/kotob/image7.PNG"
+    ],
+    "description": "Kotob is a React-based frontend application that utilises the Google Books API to display books. It allows users to filter by category/genre, search by title or author, and provides detailed information about each book in a modal view.",
+    "techStack": "React 18, Google Books API, SCSS modules, Git and more.",
+    "deployedLink": "https://kotob-api.netlify.app/",
+    "myRole": ""
+  },
+  {
+    "id": 5,
+    "logo": "./assets/img/webProjects/morse/logo.PNG",
+    "appName": "Morse Decoder",
+    "images": [
+      "./assets/img/webProjects/morse/image1.png",
+      "./assets/img/webProjects/morse/image2.png",
+      "./assets/img/webProjects/morse/image3.png",
+      "./assets/img/webProjects/morse/image4.png",
+      "./assets/img/webProjects/morse/image5.png",
+      "./assets/img/webProjects/morse/image6.png",
+      "./assets/img/webProjects/morse/image7.png",
+      "./assets/img/webProjects/morse/image8.png"
+    ],
+    "description": "This project is a web-based Morse Code Translator that allows users to encode and decode Morse code messages to and from English letters. It features a simple and intuitive user interface for easy interaction with the core functionalities: encoding English text to Morse code, decoding Morse code to English, and copying the encoded or decoded messages to the clipboard.",
+    "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, HTML5, Git and more.",
+    "deployedLink": "https://morseencoder.netlify.app/",
+    "myRole": ""
+  },
+  {
+    "id": 6,
+    "logo": "./assets/img/webProjects/melo/logo.PNG",
+    "appName": "Melodistic",
+    "images": [
+      "./assets/img/webProjects/melo/image0.PNG",
+      "./assets/img/webProjects/melo/image1.PNG",
+      "./assets/img/webProjects/melo/image2.PNG",
+      "./assets/img/webProjects/melo/image3.PNG",
+      "./assets/img/webProjects/melo/image4.PNG",
+      "./assets/img/webProjects/melo/image5.PNG",
+      "./assets/img/webProjects/melo/image6.PNG",
+      "./assets/img/webProjects/melo/image7.PNG"
+    ],
+    "description": "Melodistic is an eCommerce platform that sells headphones and earphones. It is built with simple and neat interface, allowing users to browse products, search for products by any suitable keyword, sort items by price, and add products to their cart. The cart page allowes users to view their selected items, remove items or proceed to checkout.",
+    "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Axios, Git, Figma and more.",
+    "deployedLink": "https://dalia3aly.github.io/melodisticEcommerce/",
+    "myRole": ""
+  },
+  {
+    "id": 7,
+    "logo": "./assets/img/webProjects/got/logo.PNG",
+    "appName": "A Song of Ice & Fire",
+    "images": [
+      "./assets/img/webProjects/got/image.PNG",
+      "./assets/img/webProjects/got/image1.PNG",
+      "./assets/img/webProjects/got/image2.PNG",
+      "./assets/img/webProjects/got/image3.PNG",
+      "./assets/img/webProjects/got/image4.PNG",
+      "./assets/img/webProjects/got/image5.PNG",
+      "./assets/img/webProjects/got/image6.PNG",
+      "./assets/img/webProjects/got/image7.PNG",
+      "./assets/img/webProjects/got/image8.PNG",
+      "./assets/img/webProjects/got/image9.PNG"
+    ],
+    "description": "A Song of Ice and Fire is a web application that allows users to search for characters, houses, and books from the Game of Thrones series. Users can also view detailed information about each character and house.",
+    "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Git and more.",
+    "deployedLink": "https://go-t-three.vercel.app/",
+    "myRole": ""
+  }
+]
