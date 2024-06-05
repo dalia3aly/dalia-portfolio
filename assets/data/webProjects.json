@@ -20,6 +20,7 @@
     "description": "OurCattitude is an evolving personal project. It's a platform that seamlessly captures cat routine and behaviour patterns. It is built with robust front-end and back-end services, allows registered users to manage profiles for multiple cats, covering areas like eating, sleeping, unusual behaviours, litter habits, and activity levels. Real-time data visualization is offered through interactive charts, enabling users to monitor behaviour patterns on demand and generates reports to share with their vets.",
     "techStack": "React, Vite, Node.js, Express.js, Material-UI, JWT, Bcrypt, Axios, MySQL, Sequelize ORM, Git, Figma, Postman, Canva and more.",
     "deployedLink": "https://ourcattitude.com",
+    "githubLink": "https://github.com/dalia3aly/OurCattitude",
     "myRole": ""
   },
   {
@@ -38,6 +39,7 @@
     "description": "What's for Dinner? is a frontend web application that allows users to search for recipes based on the ingredients they have at home, or browse recipes from their favourite cuisines. Recipes are displayed with a list of ingredients, instructions, and a video tutorial.",
     "techStack": "React 18, Vite, Material-UI, Node.js, Axios, Git, Figma and more.",
     "deployedLink": "https://whats4dinner-d.netlify.app/",
+    "githubLink": "https://github.com/dalia3aly/whats4dinner",
     "myRole": ""
   },
   {
@@ -57,6 +59,7 @@
     "description": "IT'S TIME is a sophisticated full-stack e-commerce platform dedicated to offering a range of Swiss watches, designed with modern web technologies. This platform leverages React, Firebase, and a meticulously designed Cart Context to provide a seamless shopping experience and real-time database interactions, including user authentication, product filtering, and sorting. The platform also features a responsive design, allowing users to browse and add products to cart on any device.",
     "techStack": "React 18, Vite, Node.js, SCSS Modules, Firebase, Git, Figma, Postman, Canva and more.",
     "deployedLink": "https://itstime-watches.netlify.app/",
+    "githubLink": "https://github.com/dalia3aly/itstime",
     "myRole": ""
   },
   {
@@ -75,6 +78,7 @@
     "description": "Kotob is a React-based frontend application that utilises the Google Books API to display books. It allows users to filter by category/genre, search by title or author, and provides detailed information about each book in a modal view.",
     "techStack": "React 18, Google Books API, SCSS modules, Git and more.",
     "deployedLink": "https://kotob-api.netlify.app/",
+    "githubLink": "https://github.com/dalia3aly/itstime",
     "myRole": ""
   },
   {
@@ -94,6 +98,7 @@
     "description": "This project is a web-based Morse Code Translator that allows users to encode and decode Morse code messages to and from English letters. It features a simple and intuitive user interface for easy interaction with the core functionalities: encoding English text to Morse code, decoding Morse code to English, and copying the encoded or decoded messages to the clipboard.",
     "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, HTML5, Git and more.",
     "deployedLink": "https://morseencoder.netlify.app/",
+    "githubLink": "https://github.com/dalia3aly/Morse-Decoder",
     "myRole": ""
   },
   {
@@ -113,10 +118,26 @@
     "description": "Melodistic is an eCommerce platform that sells headphones and earphones. It is built with simple and neat interface, allowing users to browse products, search for products by any suitable keyword, sort items by price, and add products to their cart. The cart page allowes users to view their selected items, remove items or proceed to checkout.",
     "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Axios, Git, Figma and more.",
     "deployedLink": "https://dalia3aly.github.io/melodisticEcommerce/",
+    "githubLink": "https://github.com/dalia3aly/melodisticEcommerce",
     "myRole": ""
   },
   {
     "id": 7,
+    "logo": "./assets/img/webProjects/sweeper/logo.PNG",
+    "appName": "MineSweeper",
+    "images": [
+      "./assets/img/webProjects/sweeper/image1.PNG",
+      "./assets/img/webProjects/sweeper/image2.PNG",
+      "./assets/img/webProjects/sweeper/image3.PNG",
+      "./assets/img/webProjects/sweeper/image4.PNG"
+    ],
+    "description": "This Minesweeper game is a modern take on the classic grid-based puzzle game, implemented in Java with a graphical user interface. The project showcases an implementation that focuses on object-oriented design principles, employing patterns like MVC (Model-View-Controller) and Observer to create a scalable and maintainable codebase. This implementation aims to demonstrate clean coding practices, thoughtful architecture, and the use of Java Swing for building interactive GUI applications.",
+    "techStack": "JDK 22 , Maven, Git, Eclipse IDE, Java Swing and several other libraries.",
+    "githubLink": "https://github.com/dalia3aly/MineSweeper",
+    "myRole": ""
+  },
+  {
+    "id": 8,
     "logo": "./assets/img/webProjects/got/logo.PNG",
     "appName": "A Song of Ice & Fire",
     "images": [
@@ -134,6 +155,7 @@
     "description": "A Song of Ice and Fire is a web application that allows users to search for characters, houses, and books from the Game of Thrones series. Users can also view detailed information about each character and house.",
     "techStack": "Vanilla JavaScript, CSS with Bootstrap 5, Git and more.",
     "deployedLink": "https://go-t-three.vercel.app/",
+    "githubLink": "https://github.com/dalia3aly/GoT",
     "myRole": ""
   }
 ]
