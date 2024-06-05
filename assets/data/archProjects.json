@@ -1,80 +1,79 @@
 [
-    {
-        "id" : 15,
-        "logo": "./assets/img/archProjects/entisar/logo.PNG",
-        "appName": "Entisar Tower",
-        "images": [
-          "./assets/img/archProjects/entisar/image0.PNG",
-          "./assets/img/archProjects/entisar/image1.PNG",
-          "./assets/img/archProjects/entisar/image2.PNG",
-          "./assets/img/archProjects/entisar/image3.PNG",
-          "./assets/img/archProjects/entisar/image4.PNG",
-          "./assets/img/archProjects/entisar/image5.PNG",
-          "./assets/img/archProjects/entisar/image6.PNG"
-        ],
-        "description": "Entisar Tower is a 121-storey mixed-use tower located in Dubai, UAE. The project is a high-end residential tower with a office spaces and a hotel. The building was designed to have a modern and luxurious interior with a focus on the comfort and well-being of the residents. This iconic building is the highest tower of it's kind and second highest building in the world.",
-        "techStack": "Revit - AutoCad",
-        "deployedLink": "",
-        "myRole": "My Role: Concept Re-design - Design Development - Tender Drawings"
-      },
-      {
-        "id" : 16,
-        "logo": "./assets/img/archProjects/prev/logo.PNG",
-        "appName": "Preventive Medicine Centre",
-        "images": [
-          "./assets/img/archProjects/prev/image0.jpg",
-          "./assets/img/archProjects/prev/image1.PNG",
-          "./assets/img/archProjects/prev/image2.PNG",
-          "./assets/img/archProjects/prev/image3.PNG",
-          "./assets/img/archProjects/prev/image4.PNG",
-          "./assets/img/archProjects/prev/image5.PNG",
-          "./assets/img/archProjects/prev/image6.PNG",
-          "./assets/img/archProjects/prev/image7.PNG"
-        ],
-        "description": "Preventive medicine centre was designed to be built in Abu Dhabi, UAE. The project is a 3-storey building with a total area of 3,000 m2 with state of the art facilities and equipment. The building was designed to be a modern and sustainable building with a focus on energy and water efficiency.",
-        "techStack": "AutoCad 2D & 3D - 3Ds Max - Vray - Photoshop",
-        "deployedLink": "",
-        "myRole": "My Role: Concept Design - Design Development - 3D Modelling - Rendering - Presentation"
-      },
-      {
-      "id" : 17,
-      "logo": "./assets/img/archProjects/dialysis/logo.PNG",
-      "appName": "Dialysis Centre",
-      "images": [
-        "./assets/img/archProjects/dialysis/image0.PNG",
-        "./assets/img/archProjects/dialysis/image1.PNG",
-        "./assets/img/archProjects/dialysis/image2.PNG",
-        "./assets/img/archProjects/dialysis/image3.PNG",
-        "./assets/img/archProjects/dialysis/image4.PNG",
-        "./assets/img/archProjects/dialysis/image5.PNG",
-        "./assets/img/archProjects/dialysis/image6.PNG",
-        "./assets/img/archProjects/dialysis/image7.PNG",
-        "./assets/img/archProjects/dialysis/image8.PNG"
-      ],
-      "description": "Dialysis Centre was designed to be built in Abu Dhabi, UAE. The project is a 2-storey building with a total area of 4,200 m2 with state of the art facilities and equipment. This project is part of Abu Dhabi Mafraq hospital expansion and part of SEHA hospital network",
-      "techStack": "Revit - AutoCad",
-      "deployedLink": "",
-      "myRole": "My Role: Design Development - Sustainability Reports - Tender Drawings - Site Supervision"
-    },
-    {
-        "id" : 18,
-        "logo": "./assets/img/archProjects/obaid/logo.PNG",
-        "appName": "Mid-rise Full Renovation",
-        "images": [
-          "./assets/img/archProjects/obaid/image0.PNG",
-          "./assets/img/archProjects/obaid/image1.PNG",
-          "./assets/img/archProjects/obaid/image2.PNG",
-          "./assets/img/archProjects/obaid/image3.PNG",
-          "./assets/img/archProjects/obaid/image4.PNG",
-          "./assets/img/archProjects/obaid/image5.PNG",
-          "./assets/img/archProjects/obaid/image6.PNG",
-          "./assets/img/archProjects/obaid/image7.PNG",
-          "./assets/img/archProjects/obaid/image8.PNG"
-        ],
-        "description": "This project was originally built in the 1970s and was in need of a full renovation. The project is a 10-storey building in the heart of Abu Dhabi, UAE. The building was re-designed from the inside out and all electrical, mechanical and plumbing systems were replaced with new and efficient systems. The new design reflects the owner's vision of a modern and luxurious building.",
-        "techStack": "AutoCad - 3Ds Max - Vray - Photoshop",
-        "deployedLink": "",
-        "myRole": "My Role: Concept Design - Interior Design - Design Development - Tender Drawings - 3D Modelling - Rendering - Presentation"
-      }
-  ]
-  
+  {
+    "id": 100,
+    "logo": "./assets/img/archProjects/entisar/logo.PNG",
+    "appName": "Entisar Tower",
+    "images": [
+      "./assets/img/archProjects/entisar/image0.PNG",
+      "./assets/img/archProjects/entisar/image1.PNG",
+      "./assets/img/archProjects/entisar/image2.PNG",
+      "./assets/img/archProjects/entisar/image3.PNG",
+      "./assets/img/archProjects/entisar/image4.PNG",
+      "./assets/img/archProjects/entisar/image5.PNG",
+      "./assets/img/archProjects/entisar/image6.PNG"
+    ],
+    "description": "Entisar Tower is a 121-storey mixed-use tower located in Dubai, UAE. The project is a high-end residential tower with a office spaces and a hotel. The building was designed to have a modern and luxurious interior with a focus on the comfort and well-being of the residents. This iconic building is the highest tower of it's kind and second highest building in the world.",
+    "techStack": "Revit - AutoCad",
+    "deployedLink": "",
+    "myRole": "My Role: Concept Re-design - Design Development - Tender Drawings"
+  },
+  {
+    "id": 101,
+    "logo": "./assets/img/archProjects/prev/logo.PNG",
+    "appName": "Preventive Medicine Centre",
+    "images": [
+      "./assets/img/archProjects/prev/image0.jpg",
+      "./assets/img/archProjects/prev/image1.PNG",
+      "./assets/img/archProjects/prev/image2.PNG",
+      "./assets/img/archProjects/prev/image3.PNG",
+      "./assets/img/archProjects/prev/image4.PNG",
+      "./assets/img/archProjects/prev/image5.PNG",
+      "./assets/img/archProjects/prev/image6.PNG",
+      "./assets/img/archProjects/prev/image7.PNG"
+    ],
+    "description": "Preventive medicine centre was designed to be built in Abu Dhabi, UAE. The project is a 3-storey building with a total area of 3,000 m2 with state of the art facilities and equipment. The building was designed to be a modern and sustainable building with a focus on energy and water efficiency.",
+    "techStack": "AutoCad 2D & 3D - 3Ds Max - Vray - Photoshop",
+    "deployedLink": "",
+    "myRole": "My Role: Concept Design - Design Development - 3D Modelling - Rendering - Presentation"
+  },
+  {
+    "id": 102,
+    "logo": "./assets/img/archProjects/dialysis/logo.PNG",
+    "appName": "Dialysis Centre",
+    "images": [
+      "./assets/img/archProjects/dialysis/image0.PNG",
+      "./assets/img/archProjects/dialysis/image1.PNG",
+      "./assets/img/archProjects/dialysis/image2.PNG",
+      "./assets/img/archProjects/dialysis/image3.PNG",
+      "./assets/img/archProjects/dialysis/image4.PNG",
+      "./assets/img/archProjects/dialysis/image5.PNG",
+      "./assets/img/archProjects/dialysis/image6.PNG",
+      "./assets/img/archProjects/dialysis/image7.PNG",
+      "./assets/img/archProjects/dialysis/image8.PNG"
+    ],
+    "description": "Dialysis Centre was designed to be built in Abu Dhabi, UAE. The project is a 2-storey building with a total area of 4,200 m2 with state of the art facilities and equipment. This project is part of Abu Dhabi Mafraq hospital expansion and part of SEHA hospital network",
+    "techStack": "Revit - AutoCad",
+    "deployedLink": "",
+    "myRole": "My Role: Design Development - Sustainability Reports - Tender Drawings - Site Supervision"
+  },
+  {
+    "id": 103,
+    "logo": "./assets/img/archProjects/obaid/logo.PNG",
+    "appName": "Mid-rise Full Renovation",
+    "images": [
+      "./assets/img/archProjects/obaid/image0.PNG",
+      "./assets/img/archProjects/obaid/image1.PNG",
+      "./assets/img/archProjects/obaid/image2.PNG",
+      "./assets/img/archProjects/obaid/image3.PNG",
+      "./assets/img/archProjects/obaid/image4.PNG",
+      "./assets/img/archProjects/obaid/image5.PNG",
+      "./assets/img/archProjects/obaid/image6.PNG",
+      "./assets/img/archProjects/obaid/image7.PNG",
+      "./assets/img/archProjects/obaid/image8.PNG"
+    ],
+    "description": "This project was originally built in the 1970s and was in need of a full renovation. The project is a 10-storey building in the heart of Abu Dhabi, UAE. The building was re-designed from the inside out and all electrical, mechanical and plumbing systems were replaced with new and efficient systems. The new design reflects the owner's vision of a modern and luxurious building.",
+    "techStack": "AutoCad - 3Ds Max - Vray - Photoshop",
+    "deployedLink": "",
+    "myRole": "My Role: Concept Design - Interior Design - Design Development - Tender Drawings - 3D Modelling - Rendering - Presentation"
+  }
+]
